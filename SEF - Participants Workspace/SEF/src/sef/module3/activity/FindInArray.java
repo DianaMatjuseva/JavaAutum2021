@@ -31,7 +31,12 @@ public class FindInArray {
 		
 		// Find largest in an array
 		for (int i = 1; i < nums.length; i++) {
+			System.out.println("I am entering for logo");
 			// complete the code
+			if (nums[i] > result) {
+				result = nums[i];
+				System.out.println("I am entering if statement");
+			}
 		}
 		System.out.println("Largest in array is "+result);
 
