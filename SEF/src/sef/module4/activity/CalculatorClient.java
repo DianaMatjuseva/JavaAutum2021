@@ -26,8 +26,17 @@ public class CalculatorClient {
 		// Multiply 
 		int[] mul = {2, 3, 4};
 		result = normalCalc.multiply(mul);
-		System.out.println("2) Multiplication result is " + result); 
-		
+		System.out.println("2) Multiplication result is " + result);
+
+		//Divide
+
+		int result3 = normalCalc.divide (10, 5);
+		System.out.println("3) Division result is " + result3);
+
+		//Subtract
+		int result4 = normalCalc.subtract(4, 5);
+		System.out.println("4) Subtract result is " + result4);
+
 
 	}
 
