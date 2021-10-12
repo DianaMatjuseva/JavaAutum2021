@@ -16,6 +16,7 @@ public class ClassInstanceSample {
 		
 		// Access and Set the object's attribute using it's setter and getter
 		him.setName("John");
+		her.setName("Jane");
 		String name = him.getName();
 		System.out.println(name);
 		
