@@ -2,8 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/src/sef/module7" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/src/sef/module8" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/src/sef/module9" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/src/sef/module10" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/src/sef/module11" includeSubdirectories="true" />
