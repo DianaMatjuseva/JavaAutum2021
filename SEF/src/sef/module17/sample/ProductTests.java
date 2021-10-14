@@ -22,6 +22,7 @@ public class ProductTests extends TestCase {
         assertEquals(0, 0, 0);    
         product.setPrice(testPrice);
         assertEquals(testPrice, product.getPrice(), 0);
+
     }
 
 

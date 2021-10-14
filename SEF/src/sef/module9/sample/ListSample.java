@@ -52,11 +52,19 @@ public class ListSample {
 		
 		//2 - Use Iterator to iterate over this list.
 		Iterator<String> it = l.iterator();
-		System.out.println(it.next("*** Work of iterator ***"));
+//		System.out.println(it.next("*** Work of iterator ***"));
 		while (it.hasNext()) {
 			System.out.println(it.next());
 
 		}
+		System.out.println("-------");
+
+		for (Object o : l) {
+			System.out.println(o.toString());
+		}
 
 	}
 }
+
+
+
